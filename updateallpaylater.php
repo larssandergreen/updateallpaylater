@@ -4,7 +4,6 @@ require_once 'updateallpaylater.civix.php';
 
 use CRM_Updateallpaylater_ExtensionUtil as E;
 
-
 function updateallpaylater_civicrm_navigationMenu(&$menu) {
   _updateallpaylater_civix_insert_navigation_menu($menu, 'Administer/CiviContribute', [
     'label' => E::ts('Update all pay later instructions'),
